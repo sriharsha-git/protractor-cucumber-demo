@@ -16,7 +16,7 @@ const dailyRotateFileTransport = new transports.DailyRotateFile({
     datePattern: 'YYYY-MM-DD'
 });
 
-//Configure logger
+//Configure logger and file patterns
 const logger = createLogger({
     level: 'debug',
     format: format.combine(
