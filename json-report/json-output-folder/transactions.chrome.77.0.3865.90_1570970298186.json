@@ -1,0 +1,141 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Transactions",
+    "line": 2,
+    "id": "transactions",
+    "tags": [
+      {
+        "name": "@Bank",
+        "line": 1
+      }
+    ],
+    "uri": "features\\bank.feature",
+    "elements": [
+      {
+        "id": "transactions;login-into-applcation-as-harry-potter-user",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login into applcation as Harry Potter user",
+        "tags": [
+          {
+            "name": "@Bank",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user launches \"http://www.way2automation.com/angularjs-protractor/banking/#/login\"",
+            "match": {
+              "location": "step-definitions\\bank-step.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user clicks on customer login button",
+            "match": {
+              "location": "step-definitions\\bank-step.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user dropdown list should be displayed",
+            "match": {
+              "location": "step-definitions\\bank-step.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user selects Harry Potter",
+            "match": {
+              "location": "step-definitions\\bank-step.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user on login button",
+            "match": {
+              "location": "step-definitions\\bank-step.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1704000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "account page should be displayed",
+            "match": {
+              "location": "step-definitions\\bank-step.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 741000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step-definitions\\hooks\\ScreenShot.js:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "77.0.3865.90"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

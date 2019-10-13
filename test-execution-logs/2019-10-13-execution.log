@@ -1,0 +1,24 @@
+2019-10-13 12:52:07 [32minfo[39m [protractor]: Hello world
+2019-10-13 12:52:13 [34mdebug[39m [protractor]: Debugging info
+2019-10-13 13:17:23 [32minfo[39m [protractor]: Hello world
+2019-10-13 13:17:29 [34mdebug[39m [protractor]: Debugging info
+2019-10-13 13:21:23 [32minfo[39m [protractor]: Hello world
+2019-10-13 13:21:29 [34mdebug[39m [protractor]: Debugging info
+2019-10-13 13:23:55 [32minfo[39m [protractor]: Hello world
+2019-10-13 13:24:01 [34mdebug[39m [protractor]: Debugging info
+2019-10-13 14:28:11 [32minfo[39m [protractor]: Hello world
+2019-10-13 14:30:38 [32minfo[39m [protractor]: Hello world
+2019-10-13 14:35:47 [32minfo[39m [protractor]: Hello world
+2019-10-13 14:35:57 [31merror[39m [protractor]: expected false to be true
+2019-10-13 14:35:57 [34mdebug[39m [protractor]: Debugging info
+2019-10-13 14:37:35 [32minfo[39m [protractor]: Hello world
+2019-10-13 14:37:41 [31merror[39m [protractor]: AssertionError: expected false to be true
+2019-10-13 14:37:41 [34mdebug[39m [protractor]: Debugging info
+2019-10-13 14:39:55 [32minfo[39m [protractor]: Hello world
+2019-10-13 14:52:41 [32minfo[39m [protractor]: Hello world
+2019-10-13 14:52:47 [31merror[39m [protractor]: AssertionError: expected false to be true
+2019-10-13 14:52:47 [34mdebug[39m [protractor]: Debugging info
+2019-10-13 18:03:45 [32minfo[39m [protractor]: Hello world
+2019-10-13 18:03:53 [31merror[39m [protractor]: AssertionError: expected false to be true
+2019-10-13 18:08:07 [32minfo[39m [protractor]: Hello world
+2019-10-13 18:08:14 [34mdebug[39m [protractor]: Debugging info
